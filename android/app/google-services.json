@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "262191128582",
+    "firebase_url": "https://couponcom-aba3a.firebaseio.com",
+    "project_id": "couponcom-aba3a",
+    "storage_bucket": "couponcom-aba3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262191128582:android:49d0f8e4ecdec74307a387",
+        "android_client_info": {
+          "package_name": "com.breakapp.couponcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262191128582-cq9ke4o5t3e2ql0iikruph3op1unuehq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa4VWw-VLQESU9pRrQ-zxKvw1k6HbAPxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262191128582-cq9ke4o5t3e2ql0iikruph3op1unuehq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262191128582-dqm1i135j4d893oh6j6cs93tgfuveebh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.breakapp.couponcom"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+name: couponcom
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.1.0+5
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  intl_translation:
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  flutter_spinkit: "^4.1.1"
+  cupertino_icons: ^0.1.2
+  fading_edge_scrollview: ^1.1.0
+  font_awesome_flutter: ^8.5.0
+  dotted_border: 1.0.4
+  rxdart: ^0.23.1
+  url_launcher: ^5.4.1
+  dashed_container: ^1.0.1
+  auto_size_text: ^2.1.0
+  rate_my_app: ^0.5.0+3
+  http: ^0.12.0+4
+  share: ^0.6.3+5
+  # firebase_messaging: ^6.0.13
+  flutter_launcher_icons: ^0.7.3
+  flutter_screenutil: ^1.0.2
+  cached_network_image: ^2.0.0
+  launch_review: ^1.0.1
+  flutter_email_sender: ^2.2.2
+  sqflite: ^1.1.6
+  path_provider: ^1.3.0
+  modal_progress_hud: ^0.1.3
+  splashscreen:
+  transformer_page_view:
+  smooth_page_indicator: any
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path_android: assets/icon/ic_launcher_xxxhdpi.png
+  image_path_ios: assets/icon/ios.png
+  adaptive_icon_background: assets/icon/ic_background.png
+  adaptive_icon_foreground: assets/icon/ic_foreground.png
+
+# flutter pub get
+# flutter pub run flutter_launcher_icons:main
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icon/ic_foreground.png
+    - assets/icon/Logo.png
+    - assets/ios.png
+    - assets/onboarding1.png
+    - assets/onboarding2.png
+    - assets/onboarding3.png
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: fonts/Almarai-Regular.ttf
+        - asset: fonts/Almarai-Light.ttf
+        - asset: fonts/Almarai-Bold.ttf
+        - asset: fonts/Almarai-ExtraBold.ttf
+          style: italic
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
